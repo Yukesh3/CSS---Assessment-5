@@ -1,0 +1,65 @@
+body{
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 50%;
+}
+
+.h1{
+    text-align: center;
+}
+
+
+div{
+    position: relative;
+    left: -32px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    display: inline-block;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.box0{
+    position: relative;
+    left: -80px;
+    
+}
+
+.b1{
+   
+   transition: width 2s;
+   
+}
+
+.b1:hover{
+  width: 300px;
+}
+
+.b2{
+    transition: all 2s;
+   
+}
+
+.b2:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.box{
+    background-color: rgb(42, 182, 42);
+}
+
+.b3{
+transition: width 4s;
+}
+
+.b3:hover{
+    width: 400px;
+}

@@ -1,0 +1,150 @@
+body{
+    border: 10px solid;
+    height: 855px;
+    margin: 0%;
+    border: 10px solid;
+    width: 98.5%;
+    border-color: white green white orange;
+}
+
+.o{
+  color: black;
+  background-color: orange;
+  height: 55px;
+  width: 111px;
+  display: inline-block;
+  position: absolute;
+  left: 437px;
+ 
+}
+
+.w{
+  color: black;
+  background-color: white;
+  height: 55px;
+  width: 257px;
+  display: inline-block;
+  position: absolute;
+  left: 590px;
+ 
+}
+
+.g{
+  color: black;
+  background-color: green;
+  height: 55px;
+  width: 68px;
+  display: inline-block;
+  position: absolute;
+  left: 889px;
+}
+
+
+.img-1{
+    height: 70vh;
+    width: 100%;
+}
+
+.img-2{
+    width: 160%;
+    height: 40vh;
+    position: relative;
+    top: -309px;
+    animation: build 5s linear infinite;
+    display: block;
+}
+  
+  @keyframes build {
+ 
+    100% {
+      transform: translateX(-500px);
+    }
+  
+}
+
+.img-3{
+    width: 160%;
+    height: 40vh;
+    position: relative;
+    top: -313px;
+    animation: road 5s linear infinite;
+    display: block;
+}
+
+  @keyframes road {
+ 
+    100% {
+      transform: translateX(-500px);
+         }
+}
+
+.img-4{
+    width: 529px;
+    height: 301px;
+    position: relative;
+    left: 576px;
+    top: -731px;
+    animation: car 1s linear infinite;
+
+}
+
+@keyframes car {
+   0%{transform: translateY(-1px);} 
+   50%{transform: translateY(1px);}
+   100%{transform: translateY(-1px);}
+}
+
+
+.img-5{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 87px;
+    top: -768px; 
+    animation: wheel 1s linear infinite;
+}
+
+@keyframes wheel {
+  100% {
+    transform: rotate(360deg);
+       }
+}
+
+.img-6{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 308px;
+    top: -768px;
+    animation: wheel 1s linear infinite;
+}
+
+@keyframes wheel {
+  100% {
+    transform: rotate(360deg);
+       }
+
+}
+
+.img-7{
+    width: 88px;
+    height: 122px;
+    position: relative;
+    left: 236px;
+    top: -926px; 
+}
+
+.img-8{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -1200px;
+    right: -560px;
+    animation: sun 12s linear infinite;
+}
+
+@keyframes sun{
+    100%{
+        transform: translateX(-300px);
+        }
+}
